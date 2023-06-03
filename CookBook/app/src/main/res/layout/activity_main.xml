@@ -1,0 +1,23 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+  <TextView
+      android:id="@+id/toolBar"
+      android:layout_width="match_parent"
+      android:layout_height="40dp"
+      android:textColor="@color/black"
+      android:textSize="25sp"
+      android:textStyle="bold"
+      android:layout_marginLeft="20dp"
+      android:text="Home">
+  </TextView>
+  <FrameLayout
+      android:id="@+id/fl_container"
+      android:layout_width="match_parent"
+      android:layout_height="0dp"
+      android:layout_weight="1">
+  </FrameLayout>
+
+  <include layout="@layout/layout_home_button_list" />
+</LinearLayout>

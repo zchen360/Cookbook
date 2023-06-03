@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="match_parent"
+  android:layout_height="wrap_content">
+
+    <RadioGroup
+        android:id="@+id/rg"
+        android:layout_width="match_parent"
+        android:layout_height="49dp"
+        android:background="@color/white"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/rb_home"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#0fff"
+            android:button="@null"
+            android:checked="true"
+            android:drawablePadding="2dp"
+            android:drawableTop="@drawable/selector_icon_home"
+            android:gravity="center"
+            android:text="@string/title_home"
+            android:textColor="@drawable/selector_home_tab_text"
+            android:textSize="10sp" />
+
+
+        <RadioButton
+            android:id="@+id/rb_favor"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:background="#0fff"
+            android:button="@null"
+            android:drawablePadding="2dp"
+            android:drawableTop="@drawable/selector_icon_favor"
+            android:gravity="center"
+            android:text="@string/title_favor"
+            android:textColor="@drawable/selector_home_tab_text"
+            android:textSize="10sp" />
+
+
+        <RadioButton
+            android:id="@+id/rb_shop"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:background="#0fff"
+            android:button="@null"
+            android:drawablePadding="2dp"
+            android:drawableTop="@drawable/selector_icon_shop"
+            android:gravity="center"
+            android:text="@string/title_shop"
+            android:textColor="@drawable/selector_home_tab_text"
+            android:textSize="10sp" />
+    </RadioGroup>
+</RelativeLayout>
